@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "scripts": {},
+  "dependencies": {
+    "@nestjs/core": "^9.0.0",
+    "@nestjs/common": "^9.0.0",
+    "reflect-metadata": "^0.1.13",
+    "@nestjs/platform-express": "^9.0.0"
+  },
+  "devDependencies": {
+    "tslib": "^2.3.0",
+    "ts-node": "10.9.1",
+    "@nestjs/schematics": "^9.0.0"
+  }
+}

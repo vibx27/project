@@ -1,0 +1,18 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "importsNotUsedAsValues": "error",
+    "types": ["node", "vite/client"],
+    "preserveValueImports": true,
+    "lib": ["esnext", "dom"],
+    "noImplicitThis": true,
+    "jsx": "preserve",
+    "composite": true,
+    "rootDir": "src"
+  },
+  "include": [
+    "vite.config.*",
+    "src/**/*.vue",
+    "src/**/*.ts"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "strict": true,
+    "noEmit": true,
+    "allowJs": true,
+    "outDir": "dist",
+    "rootDir": "apps",
+    "lib": ["esnext"],
+    "types": ["node"],
+    "sourceMap": true,
+    "target": "es2022",
+    "module": "es2022",
+    "incremental": true,
+    "declaration": false,
+    "skipLibCheck": false,
+    "importHelpers": true,
+    "removeComments": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "inlineSourceMap": false,
+    "strictNullChecks": false,
+    "resolveJsonModule": true,
+    "noImplicitReturns": true,
+    "noUnusedParameters": true,
+    "moduleResolution": "node",
+    "moduleDetection": "force",
+    "skipDefaultLibCheck": false,
+    "strictBindCallApply": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "useDefineForClassFields": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "apps/**/*.{ts,vue}"
+  ]
+}
